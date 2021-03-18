@@ -67,7 +67,6 @@
       - tidy
       - autoconf
       - gitk
-      - xscreensaver
       - cmake
       - build-essential
       - g++
@@ -84,7 +83,6 @@
       - libnotify-dev
       - intltool
       - libboost1.65-all-dev
-      - blueman
       - cppcheck
       - uncrustify
       - meld

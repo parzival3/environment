@@ -1,10 +1,10 @@
 ---
 - name: Copy Rofi Configs
   copy: src=config/rofi dest={{destination}}/.config owner={{user}}
-- name: copy default configs
-  template:
-    src: config/rofi/config.rasi.j2
-    dest: "{{destination}}/.config/rofi/config.rasi"
-  tags:
-    - configs
-    - rofi
+#- name: copy default configs
+#  template:
+#   src: config/rofi/config.rasi.j2
+#    dest: "{{destination}}/.config/rofi/config.rasi"
+#  tags:
+#    - configs
+#    - rofi

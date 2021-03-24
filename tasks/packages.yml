@@ -89,5 +89,6 @@
       - aspell
       - aspell-pt-br
       - ctags
+      - python3-sphinx
     state: latest
   when: ansible_distribution == 'Ubuntu'

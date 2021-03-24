@@ -16,8 +16,6 @@
 - name: Check for oh-my-zsh installation
   stat: path={{destination}}/.oh-my-zsh
   register: ohmyzsh
-  args:
-    creates: ~/.oh-my-zsh
 - name: Download Oh My Zsh
   command: "curl -k -fLo /tmp/oh-my-zsh-install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh"
   when: not ohmyzsh.stat.exists
